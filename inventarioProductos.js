@@ -5,7 +5,7 @@
  * endPoint de inventario
  */
 //const endPointProducto = "http://localhost:8080/api/supplements";
-const endPointProducto = "http://150.230.77.129:8080/api/supplements" 
+const endPointProducto = "http://150.230.88.187:8080/api/supplements" 
 /**
  * Registrar Producto
  */
