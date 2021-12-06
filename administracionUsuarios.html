@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>administracionUsuarios</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="img/Púrpura Rectángulos Despacho Jurídico Logo.ico" />
     <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -17,6 +18,10 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div>
+            <img src="img/Púrpura Rectángulos Despacho Jurídico Logo.png"
+                style="width: 74px; border: 1px;border-radius: 13px;">
+        </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
@@ -199,23 +204,25 @@
         <div class="col-md-12"
             style="padding: 3%; border: 1px; border-radius: 15px; margin-top: 5%; background: white;">
             <h2 style="text-align: center;">Administracion de usuarios</h1>
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th scope="col">Identificacion</th>
-                            <th scope="col">Nombre</th>
-                            <th scope="col">Direcciòn</th>
-                            <th scope="col">Celular</th>
-                            <th scope="col">Email</th>
-                            <th scope="col">Zona</th>
-                            <th scope="col">Cargo</th>
-                            <th scope="col">Editar</th>
-                        </tr>
-                    </thead>
-                    <tbody id="retornarTablaCliente">
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Identificacion</th>
+                                <th scope="col">Nombre</th>
+                                <th scope="col">Direcciòn</th>
+                                <th scope="col">Celular</th>
+                                <th scope="col">Email</th>
+                                <th scope="col">Zona</th>
+                                <th scope="col">Cargo</th>
+                                <th scope="col">Editar</th>
+                            </tr>
+                        </thead>
+                        <tbody id="retornarTablaCliente">
 
-                    </tbody>
-                </table>
+                        </tbody>
+                    </table>
+                </div>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"

@@ -2,8 +2,8 @@
  * EndPoint
  */
 
-//const endPointUser = "http://localhost:8080/api/user";
-const endPointUser = "http://150.230.88.187:8080/api/user"
+const endPointUser = "http://localhost:8080/api/user";
+//const endPointUser = "http://150.230.88.187:8080/api/user"
 
 let id;
 let id_creacion = 1;
@@ -99,7 +99,7 @@ function eliminarUser() {
     let identificacion = $("#exampleEliminarUser").val();
     $.ajax({
         method: "DELETE",
-        url: endPointUser + "/eliminarId/" + identificacion,
+        url: endPointUser + "/eliminar/" + identificacion,
         success: function (data) {
             console.log(data);
             swal("", `Registro eliminado con exito `, "success")
